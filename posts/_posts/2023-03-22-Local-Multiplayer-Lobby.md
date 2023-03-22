@@ -9,9 +9,9 @@ The game features fast paced action divided into very short (think 10-30 seconds
 One of the parts I worked on was the Lobby system. As this was a local multiplayer/ couch-versus game we needed a way to assign controllers to different players. Thanks to a previous project I was already familiar with how to set up a very barebones version of a lobby system.
 
 ## Assets used
-Odin Inspector
-Rewired
-Unity Atoms
+- Odin Inspector
+- Rewired
+- Unity Atoms
 
 ## Player : Controller is a 1:1 relationship
 
