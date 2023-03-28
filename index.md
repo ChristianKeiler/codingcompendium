@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog
+title: About
 ---
 
 My blogposts are little bits and snippets of code I used in my projects, mostly for my own personal use.
