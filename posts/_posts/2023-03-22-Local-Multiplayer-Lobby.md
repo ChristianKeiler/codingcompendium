@@ -67,4 +67,4 @@ Each player can run around the Lobby scene so we needed a way to tell the system
 
 For this project we aimed to create a Lobby system in which players can figure out the controls before actually starting the game. As only one controller should be assigned to each active player we needed to come up with a proper controller assignment logic.
 
-The fully Lobby script is available [here](../../../Scripts/Lobby.cs).
+The fully Lobby script is available [here](https://github.com/ChristianKeiler/codingcompendium/blob/main/Scripts/Lobby.cs).
