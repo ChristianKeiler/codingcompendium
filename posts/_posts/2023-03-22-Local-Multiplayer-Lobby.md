@@ -63,6 +63,9 @@ But how does the system know who's who? This is done by assigning players an ID 
 
 Each player can run around the Lobby scene so we needed a way to tell the system "Hey, I'm ready" or to unregister themselves. This is what the Lobby zones were made for. These zones simply check if a player entered their collider and then invoke an event certain observers can listen to. The Lobby has two lists of LobbyZones, one being for setting the player's status to Ready and one to unregister themselves.
 
+![Registering and Deregistering](https://github.com/ChristianKeiler/codingcompendium/blob/main/Resources/00_deregister.gif)
+![Registering and Ready up](https://github.com/ChristianKeiler/codingcompendium/blob/main/Resources/00_ready.gif)
+
 ## Conclusion
 
 For this project we aimed to create a Lobby system in which players can figure out the controls before actually starting the game. As only one controller should be assigned to each active player we needed to come up with a proper controller assignment logic.
