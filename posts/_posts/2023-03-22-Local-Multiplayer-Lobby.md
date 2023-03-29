@@ -63,8 +63,8 @@ But how does the system know who's who? This is done by assigning players an ID 
 
 Each player can run around the Lobby scene so we needed a way to tell the system "Hey, I'm ready" or to unregister themselves. This is what the Lobby zones were made for. These zones simply check if a player entered their collider and then invoke an event certain observers can listen to. The Lobby has two lists of LobbyZones, one being for setting the player's status to Ready and one to unregister themselves.
 
-![Registering and Deregistering](https://github.com/ChristianKeiler/codingcompendium/blob/main/Resources/00_deregister.gif "Register and Deregistering")
-![Registering and Ready up](https://github.com/ChristianKeiler/codingcompendium/blob/main/Resources/00_ready.gif "Registering and Ready up")
+![Registering and Deregistering](https://github.com/ChristianKeiler/codingcompendium/blob/main/Resources/00deregister.gif "Register and Deregistering")
+![Registering and Ready up](https://github.com/ChristianKeiler/codingcompendium/blob/main/Resources/00ready.gif "Registering and Ready up")
 
 ## Conclusion
 
